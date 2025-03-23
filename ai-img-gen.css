@@ -1,0 +1,157 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(229, 231, 247);
+}
+
+.container-fluid {
+    height: auto;
+    width: 100%;
+    background-color: rgb(229, 231, 247);
+}
+
+.row {
+    height: auto;
+}
+
+.con {
+    height: auto;
+    width: 30%;
+    /* background-color: beige; */
+}
+
+.main {
+    height: auto;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(205, 204, 204);
+    border-radius: 10px;
+    border-top: 6px solid rgb(34, 34, 120);
+    padding: 25px;
+    margin-top: 4%;
+}
+
+.main {
+    width: 75%;
+    /* default width for large devices */
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 100%;
+        /* width for small devices */
+    }
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-left: 25px;
+}
+
+.magic-icon {
+    background-color: rgb(34, 34, 120);
+    color: white;
+    border-radius: 7px;
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+}
+
+.moon-icon {
+    background-color: rgb(149, 149, 149);
+    color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    padding: 11px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.prompttext {
+    margin: 20px;
+    border: 2px solid rgb(181, 180, 180);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(245, 244, 250);
+    font-family: sans-serif;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.dice-icon {
+    background-color: rgb(74, 74, 163);
+    color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    margin-top: 110px;
+    margin-right: 25px;
+    border: 1px solid rgb(31, 44, 234);
+    cursor: pointer;
+}
+
+.dropdown {
+    height: 35px;
+    width: 200px;
+    margin-left: 22px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.gen-btn {
+    height: 40px;
+    min-width: 150px;
+    background-color: rgb(34, 34, 120);
+    color: white;
+    /* font-weight:bold; */
+    font-family: Impact;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 22px;
+    border: none;
+}
+
+.gallery-grid {
+    display: grid;
+    margin-top: 25px;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.img-card {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.result-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+}
+
+.img-download-btn {
+    height: 45px;
+    width: 45px;
+    background-color: rgba(255, 255, 255, 0.299);
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 13px;
+}
